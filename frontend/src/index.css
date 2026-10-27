@@ -109,3 +109,21 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/*given csss*/
+
+html {
+    min-width: 320px;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid #7864e8;
+    outline-offset: 2px;
+}
+
